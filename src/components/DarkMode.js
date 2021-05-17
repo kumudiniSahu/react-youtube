@@ -3,7 +3,7 @@ import { Grid, Typography, Switch } from '@material-ui/core'
 
 const DarkMode = ({onChange}) => {
     return (
-        <Grid alignItems="center" justify="center" container spacing={2}>
+        <Grid alignItems="center" justify="center" container spacing={3}>
             <Typography>Dark Mode</Typography>
             <Switch onChange={onChange} color="primary"></Switch>
         </Grid>
